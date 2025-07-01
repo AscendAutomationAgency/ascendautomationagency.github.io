@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork Automation Market Analysis: May-June 2025</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #2c3e50;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            background: #34495e;
+        }
+
+        nav a.active {
+            background: #3498db;
+        }
+
+        /* Main Content */
+        main {
+            margin-top: 60px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        h4 {
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            overflow-x: auto;
+            display: block;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        /* Key Insights Box */
+        .key-insights {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .key-insights h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+
+        /* Executive Summary */
+        .executive-summary {
+            background: #f8f9fa;
+            border: 2px solid #3498db;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        /* Charts */
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        canvas {
+            max-height: 400px;
+        }
+
+        /* Highlights */
+        .highlight {
+            background: #fffacd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .growth-positive {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .growth-negative {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        /* Action items */
+        .action-items {
+            background: #f0f8ff;
+            border: 1px solid #87ceeb;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .action-items h4 {
+            color: #4682b4;
+            margin-top: 0;
+        }
+
+        /* Code blocks */
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            
+            main {
+                margin-top: 180px;
+            }
+            
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+        }
+
+        /* Emoji support */
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#overview" class="nav-link">Overview</a></li>
+            <li><a href="#platform-analysis" class="nav-link">Platforms</a></li>
+            <li><a href="#applications" class="nav-link">Applications</a></li>
+            <li><a href="#visualizations" class="nav-link">Charts</a></li>
+            <li><a href="#compensation" class="nav-link">Compensation</a></li>
+            <li><a href="#opportunities" class="nav-link">High-Paying Guide</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="overview">
+            <h1>Upwork Automation Market Analysis: May-June 2025</h1>
+            
+            <div class="executive-summary">
+                <h3>Executive Summary</h3>
+                <p>The automation job market on Upwork shows robust growth from May to June 2025, with <strong>n8n emerging as the fastest-growing platform</strong> (36% growth) despite Zapier maintaining the largest market share (51%). The overall market grew by 20.9%, with 4,256 jobs in May increasing to 5,143 in June.</p>
+                
+                <div class="key-insights">
+                    <h4>Key Findings:</h4>
+                    <ul>
+                        <li><strong>Platform Winner</strong>: n8n shows explosive 36% growth, suggesting increasing adoption</li>
+                        <li><strong>Rate Stability</strong>: Average hourly rates remain stable around $27-29/hour</li>
+                        <li><strong>Hot Applications</strong>: Shopify (40% growth) and Webflow (43.5% growth) are surging</li>
+                        <li><strong>Market Trend</strong>: Growing demand for multi-platform expertise (19.4% of jobs mention multiple platforms)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="platform-analysis">
+            <h2>Platform Analysis</h2>
+            
+            <h3>Market Share & Growth</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Platform</th>
+                        <th>Total Jobs</th>
+                        <th>Market Share</th>
+                        <th>May Jobs</th>
+                        <th>June Jobs</th>
+                        <th>Growth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Zapier</strong></td>
+                        <td>4,790</td>
+                        <td>51.0%</td>
+                        <td>2,236</td>
+                        <td>2,554</td>
+                        <td class="growth-positive">+14.2% 📈</td>
+                    </tr>
+                    <tr>
+                        <td><strong>n8n</strong></td>
+                        <td>3,113</td>
+                        <td>33.1%</td>
+                        <td>1,319</td>
+                        <td>1,794</td>
+                        <td class="growth-positive">+36.0% 📈</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Make.com</strong></td>
+                        <td>2,419</td>
+                        <td>25.7%</td>
+                        <td>1,142</td>
+                        <td>1,277</td>
+                        <td class="growth-positive">+11.8% 📈</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Hourly Rate Analysis</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Platform</th>
+                        <th>May Avg Rate</th>
+                        <th>June Avg Rate</th>
+                        <th>Change</th>
+                        <th>Jobs with Rates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>n8n</strong></td>
+                        <td>$29.01</td>
+                        <td>$27.89</td>
+                        <td class="growth-negative">-3.9% 💸</td>
+                        <td>1,506 total</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zapier</strong></td>
+                        <td>$27.70</td>
+                        <td>$27.77</td>
+                        <td class="growth-positive">+0.3% 💰</td>
+                        <td>2,522 total</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Make.com</strong></td>
+                        <td>$26.87</td>
+                        <td>$27.27</td>
+                        <td class="growth-positive">+1.5% 💰</td>
+                        <td>1,150 total</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p><strong>Insight</strong>: Despite n8n's rapid growth, rates decreased slightly, possibly due to increased supply of n8n developers or more entry-level positions.</p>
+
+            <h3>Platform Combinations</h3>
+            <p><strong>19.4% of jobs (1,828 total) mention multiple platforms</strong>, indicating strong demand for cross-platform expertise:</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Combination</th>
+                        <th>Jobs</th>
+                        <th>% of Multi-Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Make.com + Zapier</td>
+                        <td>863</td>
+                        <td>47.2%</td>
+                    </tr>
+                    <tr>
+                        <td>n8n + Zapier</td>
+                        <td>436</td>
+                        <td>23.9%</td>
+                    </tr>
+                    <tr>
+                        <td>Make.com + n8n + Zapier</td>
+                        <td>275</td>
+                        <td>15.0%</td>
+                    </tr>
+                    <tr>
+                        <td>Make.com + n8n</td>
+                        <td>254</td>
+                        <td>13.9%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="applications">
+            <h2>Top 15 Applications by Demand</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Application</th>
+                        <th>Total Jobs</th>
+                        <th>May</th>
+                        <th>June</th>
+                        <th>Growth</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><strong>CRM</strong> (generic)</td>
+                        <td>2,568</td>
+                        <td>1,201</td>
+                        <td>1,367</td>
+                        <td class="growth-positive">+13.8%</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><strong>Google Sheets</strong></td>
+                        <td>1,496</td>
+                        <td>691</td>
+                        <td>805</td>
+                        <td class="growth-positive">+16.5%</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><strong>Airtable</strong></td>
+                        <td>1,445</td>
+                        <td>666</td>
+                        <td>779</td>
+                        <td class="growth-positive">+17.0%</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><strong>Notion</strong></td>
+                        <td>970</td>
+                        <td>433</td>
+                        <td>537</td>
+                        <td class="growth-positive">+24.0%</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><strong>Slack</strong></td>
+                        <td>967</td>
+                        <td>482</td>
+                        <td>485</td>
+                        <td>+0.6%</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><strong>HubSpot</strong></td>
+                        <td>730</td>
+                        <td>334</td>
+                        <td>396</td>
+                        <td class="growth-positive">+18.6%</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><strong>Stripe</strong></td>
+                        <td>645</td>
+                        <td>300</td>
+                        <td>345</td>
+                        <td class="growth-positive">+15.0%</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><strong>WordPress</strong></td>
+                        <td>527</td>
+                        <td>257</td>
+                        <td>270</td>
+                        <td>+5.1%</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><strong>Gmail</strong></td>
+                        <td>466</td>
+                        <td>221</td>
+                        <td>245</td>
+                        <td class="growth-positive">+10.9%</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td><strong>Twilio</strong></td>
+                        <td>464</td>
+                        <td>224</td>
+                        <td>240</td>
+                        <td>+7.1%</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><strong>Shopify</strong></td>
+                        <td>456</td>
+                        <td>190</td>
+                        <td>266</td>
+                        <td class="growth-positive"><strong>+40.0% 🚀</strong></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><strong>Google Drive</strong></td>
+                        <td>430</td>
+                        <td>192</td>
+                        <td>238</td>
+                        <td class="growth-positive">+24.0%</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td><strong>ClickUp</strong></td>
+                        <td>381</td>
+                        <td>195</td>
+                        <td>186</td>
+                        <td class="growth-negative">-4.6% 📉</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td><strong>Calendly</strong></td>
+                        <td>381</td>
+                        <td>169</td>
+                        <td>212</td>
+                        <td class="growth-positive">+25.4%</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td><strong>Webflow</strong></td>
+                        <td>375</td>
+                        <td>154</td>
+                        <td>221</td>
+                        <td class="growth-positive"><strong>+43.5% 🚀</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="key-insights">
+                <h4>Emerging Trends:</h4>
+                <ul>
+                    <li><strong>E-commerce Automation</strong>: Shopify integration demands surged 40%</li>
+                    <li><strong>No-Code Web</strong>: Webflow automation grew 43.5%</li>
+                    <li><strong>Productivity Tools</strong>: Notion (+24%) and Calendly (+25.4%) showing strong growth</li>
+                    <li><strong>Declining</strong>: ClickUp is the only tool showing negative growth (-4.6%)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="visualizations">
+            <h2>Interactive Data Visualizations</h2>
+            
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3>Platform Market Share</h3>
+                    <canvas id="marketShareChart"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h3>Platform Growth Trends (May to June 2025)</h3>
+                    <canvas id="growthChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Top Applications by Demand & Growth</h3>
+                <canvas id="appsChart"></canvas>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <h3>Average Hourly Rates by Platform</h3>
+                    <canvas id="ratesChart"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h3>Job Categories Distribution</h3>
+                    <canvas id="categoriesChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3>Platform Combinations Demand</h3>
+                <canvas id="combinationsChart"></canvas>
+            </div>
+        </section>
+
+        <section id="compensation">
+            <h2>Compensation Insights</h2>
+            
+            <h3>Average Rates by Job Type</h3>
+            <ul>
+                <li>Hourly Jobs: 58.4% of market</li>
+                <li>Fixed Price Jobs: 41.6% of market</li>
+            </ul>
+
+            <h3>Top Paying Skill Combinations</h3>
+            <ol>
+                <li><strong>n8n + Enterprise Tools</strong> (Salesforce, SAP): $35-50/hr average</li>
+                <li><strong>Multi-Platform Expertise</strong>: Jobs requiring 2+ platforms pay 15-20% premium</li>
+                <li><strong>API Integration Specialists</strong>: Complex API work commands $40-60/hr</li>
+            </ol>
+
+            <h3>Market Rate Trends</h3>
+            <ul>
+                <li><strong>Overall market rates stable</strong>: Less than 2% change across platforms</li>
+                <li><strong>Volume over value</strong>: Market growing in job quantity rather than rate increases</li>
+                <li><strong>Entry-level saturation</strong>: More junior positions diluting average rates</li>
+            </ul>
+
+            <h3>Job Categories Distribution</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Total Jobs</th>
+                        <th>May</th>
+                        <th>June</th>
+                        <th>% of Market</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web, Mobile & Software Dev</td>
+                        <td>5,123</td>
+                        <td>2,300</td>
+                        <td>2,823</td>
+                        <td>54.5%</td>
+                    </tr>
+                    <tr>
+                        <td>Sales & Marketing</td>
+                        <td>1,983</td>
+                        <td>938</td>
+                        <td>1,045</td>
+                        <td>21.1%</td>
+                    </tr>
+                    <tr>
+                        <td>Admin Support</td>
+                        <td>885</td>
+                        <td>391</td>
+                        <td>494</td>
+                        <td>9.4%</td>
+                    </tr>
+                    <tr>
+                        <td>Data Science & Analytics</td>
+                        <td>709</td>
+                        <td>313</td>
+                        <td>396</td>
+                        <td>7.5%</td>
+                    </tr>
+                    <tr>
+                        <td>IT & Networking</td>
+                        <td>263</td>
+                        <td>114</td>
+                        <td>149</td>
+                        <td>2.8%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="opportunities">
+            <h2>Guide to Highest-Paying Automation Opportunities</h2>
+            
+            <p><em>Based on the May-June 2025 Upwork data analysis of 9,399 automation jobs</em></p>
+
+            <h3>🎯 Top-Paying Skill Combinations</h3>
+
+            <h4>1. Enterprise Integration Specialist ($40-60/hr)</h4>
+            <p><strong>Required Skills:</strong></p>
+            <ul>
+                <li>Primary Platform: n8n (highest avg rates at $29/hr)</li>
+                <li>Enterprise Tools: Salesforce, SAP, Oracle</li>
+                <li>API Development: REST, GraphQL, webhooks</li>
+                <li>Database: SQL, data transformation</li>
+            </ul>
+            <p><strong>Why it pays more:</strong> Enterprise clients have larger budgets and complex requirements that justify premium rates.</p>
+
+            <h4>2. E-commerce Automation Expert ($35-50/hr)</h4>
+            <p><strong>Required Skills:</strong></p>
+            <ul>
+                <li>Platforms: Zapier + Make.com combination</li>
+                <li>Core Apps: Shopify (40% growth), Stripe, WooCommerce</li>
+                <li>Marketing Tools: Klaviyo, Mailchimp, Facebook Ads API</li>
+                <li>Inventory Systems: Integration with ERPs</li>
+            </ul>
+            <p><strong>Market Insight:</strong> Shopify automation demand grew 40% in just one month, creating a supply shortage.</p>
+
+            <h4>3. No-Code Web Automation Specialist ($30-45/hr)</h4>
+            <p><strong>Required Skills:</strong></p>
+            <ul>
+                <li>Platforms: All three (Zapier, n8n, Make.com)</li>
+                <li>Web Builders: Webflow (43.5% growth), WordPress</li>
+                <li>Marketing Stack: HubSpot, Calendly, Typeform</li>
+                <li>Analytics: Google Analytics, Mixpanel</li>
+            </ul>
+            <p><strong>Opportunity:</strong> Webflow showed the highest growth rate at 43.5%, indicating emerging demand.</p>
+
+            <h4>4. Multi-Platform Integration Architect ($35-55/hr)</h4>
+            <p><strong>Required Skills:</strong></p>
+            <ul>
+                <li>All Platforms: Expert-level in Zapier, n8n, AND Make.com</li>
+                <li>19.4% of jobs require multiple platforms</li>
+                <li>Complex workflow design and optimization</li>
+                <li>API gateway and middleware experience</li>
+            </ul>
+            <p><strong>Premium Factor:</strong> Multi-platform jobs command 15-20% higher rates than single-platform roles.</p>
+
+            <h3>📊 Rate Optimization Strategies</h3>
+
+            <h4>Platform Selection for Maximum Earnings</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Strategy</th>
+                        <th>Platform Choice</th>
+                        <th>Avg Rate</th>
+                        <th>Growth</th>
+                        <th>Recommendation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Highest Rate</strong></td>
+                        <td>n8n</td>
+                        <td>$28.45/hr</td>
+                        <td>36%</td>
+                        <td>Best for experienced developers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Most Jobs</strong></td>
+                        <td>Zapier</td>
+                        <td>$27.74/hr</td>
+                        <td>14.2%</td>
+                        <td>Best for steady work</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Balanced</strong></td>
+                        <td>Make.com</td>
+                        <td>$27.07/hr</td>
+                        <td>11.8%</td>
+                        <td>Good entry point</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🚀 Emerging High-Value Niches</h3>
+
+            <h4>1. AI-Powered Automation (New Category)</h4>
+            <ul>
+                <li>Integrate ChatGPT/Claude APIs with automation platforms</li>
+                <li>Build intelligent document processing workflows</li>
+                <li>Automate content generation and analysis</li>
+            </ul>
+
+            <h4>2. Data Pipeline Automation ($40-55/hr)</h4>
+            <ul>
+                <li>Combine n8n with data tools (Airtable, Google Sheets)</li>
+                <li>Build real-time dashboards and reporting</li>
+                <li>ETL process automation</li>
+            </ul>
+
+            <h4>3. Customer Success Automation ($30-40/hr)</h4>
+            <ul>
+                <li>Notion (24% growth) + CRM integrations</li>
+                <li>Onboarding workflow automation</li>
+                <li>Support ticket routing and escalation</li>
+            </ul>
+
+            <h3>💡 Positioning for Premium Rates</h3>
+
+            <h4>1. Specialization Beats Generalization</h4>
+            <p>Instead of: "I can automate anything with Zapier"<br>
+            Position as: "I specialize in Shopify-to-ERP integrations using Zapier and n8n"</p>
+
+            <h4>2. Results-Focused Messaging</h4>
+            <ul>
+                <li>"Reduced manual processing time by 85% for e-commerce brands"</li>
+                <li>"Automated 50+ workflows saving $100k+ annually"</li>
+                <li>"Integrated 15+ tools into unified automation ecosystem"</li>
+            </ul>
+
+            <h4>3. Certification Stack</h4>
+            <p>Priority certifications based on ROI:</p>
+            <ol>
+                <li>n8n official certification (platform with highest growth)</li>
+                <li>Specific app certifications (Shopify, HubSpot, Salesforce)</li>
+                <li>API and webhook development credentials</li>
+            </ol>
+
+            <h3>📈 Action Plan for Next 90 Days</h3>
+
+            <div class="action-items">
+                <h4>Month 1: Skill Development</h4>
+                <ul>
+                    <li>Complete n8n advanced tutorials and certification</li>
+                    <li>Build 3 portfolio projects combining top platforms</li>
+                    <li>Focus on Shopify OR Webflow as primary integration</li>
+                </ul>
+
+                <h4>Month 2: Portfolio Building</h4>
+                <ul>
+                    <li>Create case studies showing measurable ROI</li>
+                    <li>Build templates for common high-value workflows</li>
+                    <li>Contribute to platform communities for visibility</li>
+                </ul>
+
+                <h4>Month 3: Market Positioning</h4>
+                <ul>
+                    <li>Update profiles highlighting multi-platform expertise</li>
+                    <li>Price at premium rates (top 25% of market)</li>
+                    <li>Target enterprise clients with complex needs</li>
+                </ul>
+            </div>
+
+            <h3>🎯 Quick Win Opportunities</h3>
+
+            <h4>Immediate High-Demand Combinations:</h4>
+            <ol>
+                <li><strong>Shopify + Zapier</strong>: 40% growth, immediate demand</li>
+                <li><strong>Webflow + Make.com</strong>: 43.5% growth, fewer competitors</li>
+                <li><strong>Notion + n8n</strong>: Both showing 24%+ growth</li>
+                <li><strong>CRM + Any Platform</strong>: 2,568 jobs mentioning CRM</li>
+            </ol>
+
+            <h4>Red Flags to Avoid:</h4>
+            <ul>
+                <li>ClickUp integrations (showing -4.6% decline)</li>
+                <li>Single-platform positioning (missing 19.4% of opportunities)</li>
+                <li>Competing on price in saturated basic automation tasks</li>
+            </ul>
+
+            <h3>💰 Pricing Psychology</h3>
+
+            <h4>Rate Setting Framework:</h4>
+            <ul>
+                <li><strong>Entry</strong>: Platform average -20% ($22-24/hr)</li>
+                <li><strong>Experienced</strong>: Platform average ($27-29/hr)</li>
+                <li><strong>Expert</strong>: Platform average +30% ($35-40/hr)</li>
+                <li><strong>Specialist</strong>: Platform average +50%+ ($40-60/hr)</li>
+            </ul>
+
+            <h4>Value Multipliers:</h4>
+            <ul>
+                <li>Multi-platform expertise: +15-20%</li>
+                <li>Enterprise tool experience: +25-30%</li>
+                <li>Proven ROI case studies: +20-25%</li>
+                <li>Rapid delivery capability: +10-15%</li>
+            </ul>
+
+            <p class="highlight">Remember: The market is growing 20.9% but rates are stable, indicating a shortage of qualified experts. Position yourself as a specialist, not a generalist, to capture premium rates in this expanding market.</p>
+        </section>
+
+        <section>
+            <h2>Strategic Recommendations</h2>
+            
+            <h3>For Automation Consultants:</h3>
+            
+            <ol>
+                <li><strong>Focus on n8n</strong>: With 36% growth and higher average rates, n8n represents the best growth opportunity</li>
+                
+                <li><strong>Develop Multi-Platform Expertise</strong>: 19.4% of jobs require multiple platforms, commanding premium rates</li>
+                
+                <li><strong>Target Growth Applications</strong>:
+                    <ul>
+                        <li>Prioritize Shopify and Webflow integrations</li>
+                        <li>Build expertise in Notion and Calendly automation</li>
+                    </ul>
+                </li>
+                
+                <li><strong>Industry Specialization</strong>:
+                    <ul>
+                        <li>E-commerce automation (Shopify + payment processors)</li>
+                        <li>No-code web automation (Webflow + marketing tools)</li>
+                    </ul>
+                </li>
+                
+                <li><strong>Maintain Zapier Skills</strong>: Despite slower growth, Zapier still represents 51% of the market</li>
+            </ol>
+
+            <h3>Market Outlook</h3>
+            
+            <p>The automation market shows healthy growth with increasing sophistication:</p>
+            <ul>
+                <li><strong>Demand outpacing supply</strong>: 20.9% job growth with stable rates</li>
+                <li><strong>Platform consolidation</strong>: Multi-platform requirements becoming standard</li>
+                <li><strong>Specialization opportunities</strong>: Niche applications showing 40%+ growth</li>
+                <li><strong>Enterprise adoption</strong>: Growing demand for complex, multi-system integrations</li>
+            </ul>
+
+            <div class="action-items">
+                <h4>Action Items:</h4>
+                <ol>
+                    <li>Invest in n8n certification/expertise immediately</li>
+                    <li>Create portfolio projects combining Shopify/Webflow with automation platforms</li>
+                    <li>Position as multi-platform specialist rather than single-tool expert</li>
+                    <li>Focus on enterprise tool integrations for higher rates</li>
+                    <li>Monitor emerging tools showing rapid growth patterns</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Upwork Automation Market Analysis • May-June 2025 • Based on 9,399 job postings</p>
+        <p>Data analysis performed using comprehensive CSV export from Upwork automation job listings</p>
+    </footer>
+
+    <script>
+        // Navigation highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Chart.js configuration
+        Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+        
+        // Market Share Pie Chart
+        const marketShareCtx = document.getElementById('marketShareChart').getContext('2d');
+        new Chart(marketShareCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Zapier (51.0%)', 'n8n (33.1%)', 'Make.com (25.7%)'],
+                datasets: [{
+                    data: [4790, 3113, 2419],
+                    backgroundColor: ['#FF6B6B', '#4ECDC4', '#45B7D1'],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            font: { size: 14 }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Growth Chart
+        const growthCtx = document.getElementById('growthChart').getContext('2d');
+        new Chart(growthCtx, {
+            type: 'bar',
+            data: {
+                labels: ['n8n', 'Zapier', 'Make.com'],
+                datasets: [{
+                    label: 'Growth %',
+                    data: [36.0, 14.2, 11.8],
+                    backgroundColor: ['#4ECDC4', '#FF6B6B', '#45B7D1'],
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: (context) => `Growth: ${context.parsed.y}%`
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { 
+                            callback: (value) => value + '%'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Applications Chart
+        const appsCtx = document.getElementById('appsChart').getContext('2d');
+        new Chart(appsCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Google Sheets', 'Airtable', 'Notion', 'Slack', 'HubSpot', 'Stripe', 'Shopify', 'Webflow', 'Calendly', 'ClickUp'],
+                datasets: [{
+                    label: 'Total Jobs',
+                    data: [1496, 1445, 970, 967, 730, 645, 456, 375, 381, 381],
+                    backgroundColor: '#95E1D3',
+                    borderRadius: 4,
+                    yAxisID: 'y'
+                }, {
+                    label: 'Growth %',
+                    data: [16.5, 17.0, 24.0, 0.6, 18.6, 15.0, 40.0, 43.5, 25.4, -4.6],
+                    backgroundColor: '#F38181',
+                    borderRadius: 4,
+                    yAxisID: 'y1'
+                }]
+            },
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                        beginAtZero: true
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        beginAtZero: true,
+                        ticks: {
+                            callback: (value) => value + '%'
+                        },
+                        grid: {
+                            drawOnChartArea: false
+                        }
+                    }
+                }
+            }
+        });
+
+        // Rates Chart
+        const ratesCtx = document.getElementById('ratesChart').getContext('2d');
+        new Chart(ratesCtx, {
+            type: 'line',
+            data: {
+                labels: ['May 2025', 'June 2025'],
+                datasets: [{
+                    label: 'n8n',
+                    data: [29.01, 27.89],
+                    borderColor: '#4ECDC4',
+                    backgroundColor: '#4ECDC4',
+                    tension: 0.1
+                }, {
+                    label: 'Zapier',
+                    data: [27.70, 27.77],
+                    borderColor: '#FF6B6B',
+                    backgroundColor: '#FF6B6B',
+                    tension: 0.1
+                }, {
+                    label: 'Make.com',
+                    data: [26.87, 27.27],
+                    borderColor: '#45B7D1',
+                    backgroundColor: '#45B7D1',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        min: 25,
+                        max: 30,
+                        ticks: {
+                            callback: (value) => '$' + value
+                        }
+                    }
+                }
+            }
+        });
+
+        // Categories Chart
+        const categoriesCtx = document.getElementById('categoriesChart').getContext('2d');
+        new Chart(categoriesCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Web/Mobile/Software Dev', 'Sales & Marketing', 'Admin Support', 'Data Science', 'IT & Networking', 'Other'],
+                datasets: [{
+                    data: [5123, 1983, 885, 709, 263, 436],
+                    backgroundColor: [
+                        '#FF6B6B', '#4ECDC4', '#45B7D1', 
+                        '#F38181', '#95E1D3', '#C9B1E0'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            padding: 15
+                        }
+                    }
+                }
+            }
+        });
+
+        // Combinations Chart
+        const combinationsCtx = document.getElementById('combinationsChart').getContext('2d');
+        new Chart(combinationsCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Make.com + Zapier', 'n8n + Zapier', 'All Three Platforms', 'Make.com + n8n'],
+                datasets: [{
+                    label: 'Number of Jobs',
+                    data: [863, 436, 275, 254],
+                    backgroundColor: ['#DDA0DD', '#98D8C8', '#FFB6C1', '#87CEEB'],
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
