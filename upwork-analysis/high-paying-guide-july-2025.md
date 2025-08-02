@@ -89,23 +89,23 @@ The automation market has reached an inflection point. Growth has decelerated fr
 
 #### Marketing Agencies ($80-150/hr)
 - **Platforms**: GoHighLevel + Zapier
-- **Key Apps**: Google Ads (+46.3%), Facebook Ads, Calendly
-- **Value Prop**: Campaign automation + reporting
+- **Key Apps**: Google Ads (+46.3%), HubSpot CRM, Calendly
+- **Value Prop**: Campaign automation + CRM integration
 
 #### SaaS Companies ($90-175/hr)
 - **Platforms**: n8n preferred
-- **Key Apps**: Airtable (+37.5%), Slack (+28.9% surge)
-- **Value Prop**: Customer lifecycle automation
+- **Key Apps**: Airtable (as CRM, +37.5%), Slack (+28.9% surge)
+- **Value Prop**: Customer lifecycle automation with flexible CRM
 
 #### E-commerce ($75-125/hr)
 - **Note**: Shopify cooling (-12.4%) but still 233 jobs
-- **Opportunity**: Multi-channel integration focus
+- **CRM Focus**: Zoho Commerce integration (+76.9% growth!)
 - **Platforms**: Make.com + Zapier
 
 #### Professional Services ($85-160/hr)
-- **Key Apps**: Calendly (+37.9%), CRM systems
-- **Focus**: Client onboarding automation
-- **Premium**: Compliance automation
+- **Key Apps**: Calendly (+37.9%), HubSpot/Pipedrive CRM
+- **Focus**: Client onboarding with CRM automation
+- **Premium**: Salesforce integration for enterprise
 
 ### 3. Workflow Optimization Expert ($75-150/hr)
 **Specialization Areas**:
@@ -211,20 +211,23 @@ The automation market has reached an inflection point. Growth has decelerated fr
 ## 🔥 Hot Opportunities (July 2025)
 
 ### Immediately Actionable:
-1. **ClickUp Recovery Play**: +34.9% growth after June decline
-2. **Slack Automation**: +28.9% surge, enterprise focus
-3. **Google Ads Integration**: +46.3% overall growth
-4. **Airtable Architecture**: Consistent 17%+ monthly growth
+1. **Zoho CRM Explosion**: +76.9% total growth, massive opportunity
+2. **ClickUp Recovery Play**: +34.9% growth after June decline
+3. **Slack Automation**: +28.9% surge, enterprise focus
+4. **Google Ads Integration**: +46.3% overall growth
+5. **Airtable as CRM**: Consistent 17%+ monthly growth, flexible CRM alternative
 
 ### Emerging Opportunities:
-1. **Twilio Automation**: +30.8% total growth, SMS/Voice
-2. **Calendly Workflows**: +37.9% growth, scheduling optimization
-3. **Multi-CRM Integration**: 1,505 jobs in July alone
+1. **CRM-Agnostic Solutions**: 1,907 jobs mention CRM without specifying platform
+2. **Alternative CRM Platforms**: Notion, Airtable, ClickUp as CRM replacements
+3. **Multi-CRM Integration**: Connect HubSpot + Salesforce + Pipedrive
+4. **Twilio + CRM**: Combining communication automation with any CRM
 
 ### Cooling Opportunities (Pivot Away):
-1. **Shopify**: -12.4% decline from June peak
-2. **Webflow**: -5.4% decline after explosive growth
-3. **Facebook Ads**: Continued decline trend
+1. **Salesforce-Only Focus**: -9.1% decline in July, becoming commoditized
+2. **Shopify**: -12.4% decline from June peak
+3. **Webflow**: -5.4% decline after explosive growth
+4. **Facebook Ads**: Continued decline trend
 
 ---
 

@@ -1,6 +1,11 @@
 # CHANGELOG
 
 
+## [0.3.1] - 2025-08-01
+### Changed
+- Removed all this `CRM (generic)` crap and replaced it with the acount counts of the CRMs.
+
+
 ## [0.3.0] - 2025-08-01
 ### Added
 - upwork-analysis/app-comparison-july-2025.md
