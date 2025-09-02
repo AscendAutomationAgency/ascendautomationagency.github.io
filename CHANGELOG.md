@@ -1,6 +1,11 @@
 # CHANGELOG
 
 
+## [0.4.1] - 2025-09-02
+### Changed
+- Had to beat some of the 'doomsday' language out of the report.
+
+
 ## [0.4.0] - 2025-09-02
 ### Added
 - upwork-analysis/app-comparison-august-2025.md
