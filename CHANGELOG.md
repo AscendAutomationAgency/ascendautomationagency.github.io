@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## [0.5.0] - 2025-10-01
+### Added
+- upwork-analysis/app-comparison-september-2025.md
+- upwork-analysis/high-paying-guide-september-2025.md
+### Changed
+- upwork-analysis/upwork-analysis.html: Adding Upwork Automation Market Analysis May-September 2025
+
+
 ## [0.4.1] - 2025-09-02
 ### Changed
 - Had to beat some of the 'doomsday' language out of the report.
