@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## [0.6.0] - 2025-11-04
+### Added
+- upwork-analysis/app-comparison-october-2025.md
+- upwork-analysis/high-paying-guide-october-2025.md
+- upwork_export_october_2025.csv
+- OCTOBER_2025_SUMMARY.md
+- analyze_upwork_data.py (analysis script)
+- analysis_results.json (raw data)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include October 2025 data (May-October 6-month analysis, 30,426 total jobs)
+### Key Findings
+- Market stabilization confirmed: -0.8% decline (vs Sept -6.1%)
+- Make.com recovery: +6.2% rebound
+- Notion rebound: +27.4% after September oversold
+- Rate compression: $38.17/hr (first meaningful decline)
+- GoHighLevel most stable: 659 jobs (-0.5%)
+- Market equilibrium forming around 5,000 jobs/month
+
+
 ## [0.5.0] - 2025-10-01
 ### Added
 - upwork-analysis/app-comparison-september-2025.md
