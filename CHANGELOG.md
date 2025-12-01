@@ -1,6 +1,25 @@
 # CHANGELOG
 
 
+## [0.7.0] - 2025-12-01
+### Added
+- upwork-analysis/app-comparison-november-2025.md
+- upwork-analysis/high-paying-guide-november-2025.md
+- upwork_export_november_2025.csv
+- NOVEMBER_2025_SKOOL_POST.md (Skool.com community post)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include November 2025 data (May-November 7-month analysis, 34,629 total jobs)
+- analyze_upwork_data.py: Added November 2025 to analysis
+- CLAUDE.md: Documented Skool post format for future monthly analyses
+### Key Findings
+- Sharp market contraction: -16.5% to 4,203 jobs (largest monthly decline of 2025)
+- Historic shift: n8n overtakes Zapier as market leader (41.1% vs 39.5% share)
+- Platform declines: Zapier -22.0%, Make.com -21.0%, n8n -14.6% (most resilient)
+- Rate recovery: $38.79/hr (up from $38.17) despite volume collapse
+- CRM outperformance: GoHighLevel +3.2%, HubSpot +3.6%, Zoho +24.3% since May
+- Market bifurcation: Premium specialist work stable while commodity automation disappears
+
+
 ## [0.6.0] - 2025-11-04
 ### Added
 - upwork-analysis/app-comparison-october-2025.md
