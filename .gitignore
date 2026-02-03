@@ -2,6 +2,9 @@
 *.sublime-*
 .idea/*
 **/run_*.sh
+*.py
+*.json
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

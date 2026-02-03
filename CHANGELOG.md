@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## [0.9.0] - 2026-02-03
+### Added
+- upwork-analysis/app-comparison-january-2026.md
+- upwork-analysis/high-paying-guide-january-2026.md
+- upwork_export_january_2026.csv
+- JANUARY_2026_SKOOL_POST.md (Skool.com community post)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include January 2026 data (May 2025-January 2026, 9-month analysis, 42,512 total jobs)
+- analyze_upwork_data.py: Added January 2026 to analysis
+### Key Findings
+- Market floor confirmed: +0.2% MoM to 3,945 jobs (first non-negative month since July)
+- Rate all-time high: $40.20/hr average (+7.0% MoM), surpassing July's $39.61 peak
+- Premium boom: 165 high-paying jobs ($75+), up +14.6% from December
+- GoHighLevel breakout: +14.8% MoM to 645 jobs (+15.0% since May, strongest growth of any major app)
+- Zapier consolidates lead: Two consecutive growth months, 44.8% market share
+- n8n weakening: -7.7% MoM steepest decline, but still +16.4% since May
+- Trello near extinction: -44.7% MoM to 26 jobs (-65.3% since May)
+- CRM split: GoHighLevel/HubSpot surging, Zoho collapsing (-32.8% MoM)
+
+
 ## [0.8.0] - 2026-01-04
 ### Added
 - upwork-analysis/app-comparison-december-2025.md
