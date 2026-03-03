@@ -1,6 +1,26 @@
 # CHANGELOG
 
 
+## [0.10.0] - 2026-03-02
+### Added
+- upwork-analysis/app-comparison-february-2026.md
+- upwork-analysis/high-paying-guide-february-2026.md
+- FEBRUARY_2026_SKOOL_POST.md (Skool.com community post)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include February 2026 data (May 2025-February 2026, 10-month analysis, 46,202 total jobs)
+### Key Findings
+- New tracking low: 3,690 jobs (-6.5% MoM, -33.2% from July peak)—contraction resumes
+- Second consecutive rate record: $43.27/hr (+7.6% MoM)—unprecedented rate acceleration
+- Premium share record: 170 high-paying jobs ($75+), 4.6% market share, 29 ultra-premium at $150+
+- Zapier dominates: 46.6% market share (highest ever), most resilient platform at 1,721 jobs
+- n8n accelerating decline: -8.6% MoM (third consecutive steepening), +6.4% since May eroding
+- Make.com shows life: +2.5% MoM, first growth in five months (743 jobs)
+- Salesforce surges: +25.0% MoM, +26.4% since May—strongest CRM growth in dataset
+- Zoho recovers: +46.3% MoM to 120 jobs, full recovery from January collapse
+- All four CRMs positive since May: Salesforce +26.4%, Zoho +16.5%, HubSpot +4.5%, GoHighLevel +4.3%
+- Specialist economy confirmed: 33.2% fewer jobs paying 9.2% higher rates than peak
+
+
 ## [0.9.0] - 2026-02-03
 ### Added
 - upwork-analysis/app-comparison-january-2026.md
