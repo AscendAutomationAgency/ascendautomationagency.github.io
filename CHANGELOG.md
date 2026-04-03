@@ -1,6 +1,27 @@
 # CHANGELOG
 
 
+## [0.11.0] - 2026-04-02
+### Added
+- upwork-analysis/app-comparison-march-2026.md
+- upwork-analysis/high-paying-guide-march-2026.md
+- upwork_export_filtered_2026-03.csv
+- MARCH_2026_SKOOL_POST.md (Skool.com community post)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include March 2026 data (May 2025-March 2026, 11-month analysis, 50,141 total jobs)
+### Key Findings
+- Spring bounce: 3,939 jobs (+6.7% MoM)—strongest growth since summer, first time all three platforms grew since July 2025
+- Rate correction: $40.67/hr (-6.0% from February's $43.27 peak)—third-highest ever, structural floor above $40
+- GoHighLevel all-time high: 693 jobs (+18.5% MoM, +23.5% since May)—highest single-month CRM count since tracking began
+- n8n decline broken: +4.3% MoM after three months of accelerating losses (-3.8%, -7.7%, -8.6%), total growth rebounds to +11.0%
+- Make.com recovery confirmed: +8.1% MoM, second consecutive positive month (803 jobs)
+- HubSpot surges: +7.4% MoM, +12.3% since May—strongest since August
+- QuickBooks strongest total growth: +30.6% since May (94 jobs)—top application by total growth
+- Generic CRM mentions all-time high: 1,434 (+19.3% since May)—CRM demand expanding
+- AI voice agents emerge: $150-250/hr new premium niche (Retell, Vapi platforms)
+- Market equilibrium: ~3,900-4,000 jobs at $40-42/hr may be the new normal
+
+
 ## [0.10.0] - 2026-03-02
 ### Added
 - upwork-analysis/app-comparison-february-2026.md
