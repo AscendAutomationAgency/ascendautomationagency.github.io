@@ -1,6 +1,29 @@
 # CHANGELOG
 
 
+## [0.12.0] - 2026-05-01
+### Added
+- upwork-analysis/app-comparison-april-2026.md
+- upwork-analysis/high-paying-guide-april-2026.md
+- upwork_export_filtered_2026-04.csv
+- APRIL_2026_SKOOL_POST.md (Skool.com community post)
+### Changed
+- upwork-analysis/upwork-analysis.html: Updated to include April 2026 data (May 2025-April 2026, 12-month analysis, 53,786 total jobs)
+- analyze_upwork_data.py: Updated months list to include all 12 months with current naming convention (`upwork_export_filtered_YYYY-MM.csv`)
+### Key Findings
+- Spring bounce reversed: 3,645 jobs (-7.5% MoM)—second-lowest in tracking, all three platforms declined
+- Rates reverted: $39.46/hr (-3.0% from March)—back below $40, 12-month round-trip complete
+- n8n total growth flipped negative: -14.5% MoM, -5.1% since May (first negative total in tracking history)
+- GoHighLevel resilient: 687 jobs (-0.9% MoM)—held near all-time high in -7.5% market
+- All four dedicated CRMs positive since May: First time. Salesforce +17.2%, GoHighLevel +22.5%, Zoho +15.5%, HubSpot +13.2%
+- Salesforce recovery confirmed: +15.9% MoM, second consecutive recovery month
+- Zoho rebound: +17.8% MoM, total flipped positive (+15.5% since May)
+- Make.com recovery stalled: -3.1% MoM, ending two-month positive streak
+- AI/Claude engineering as new premium ceiling: $200-500/hr work concentrated at the top tier
+- Premium tier contracted: 139 jobs at $75+ (3.8% share)—lowest count since November, expert tier -25%
+- Excel worst total decline: -52.4% since May—now half of May volume
+
+
 ## [0.11.0] - 2026-04-02
 ### Added
 - upwork-analysis/app-comparison-march-2026.md
