@@ -1,6 +1,32 @@
 # CHANGELOG
 
 
+## [0.13.0] - 2026-06-10
+### Added
+- upwork-analysis/year-in-review-may2025-may2026.md (13-month retrospective, May 2025–May 2026, 57,306 jobs)
+- upwork-analysis/year-in-review-corrections-appendix.md (itemized errata & methodology corrections)
+- YEAR_IN_REVIEW_SKOOL_POST.md (Skool.com community post)
+### Changed
+- All 13 months recomputed from raw CSVs with one consistent method (authoritative restatement). Supersedes month-to-month figures where they conflict.
+### Corrected (documented in full in the corrections appendix)
+- Baseline flaw: May 2025 is missing its first 5 days (data starts May 6). Every "since May" growth stat was inflated; the "summer boom" was largely an artifact. June 2025 is the correct clean baseline.
+- September 2025: Make.com reported 1,857 jobs (-11.6%); actual was 967 (-17.6%)
+- March 2026: generic CRM "all-time high 1,434" was false—July (1,507) and August (1,511) were higher
+- August 2025: headline "platform jobs" summed platform mentions; September onward used unique jobs (silent definition switch, created a phantom crash)
+- "Structural shift above $40/hr" (Jan–Feb): not structural—median rate was $35/hr in 12 of 13 months; February's $43.27 was a lone outlier that reverted
+- "Commodity work permanently eliminated": false—~55–60% of hourly jobs stayed ≤$40/hr every month
+- "n8n uniquely resilient": baseline artifact—on a June baseline all three platforms fell ~30% (Zapier -30.5%, n8n -27.9%, Make -30.7%)
+- "Premium tier expanding": premium count fell 153→138; only the share rose as total volume shrank faster
+- Platform "leadership" drama (n8n overtakes Zapier, decline broken, recovery failed) was single-month noise; Zapier led 12 of 13 months
+### Validated (held up across the full year)
+- CRM/GoHighLevel resilience: GoHighLevel 561→763 (+36%), strongest sustained application growth
+- AI becoming table stakes: AI-mention share rose 45%→59%, accelerating through 2026
+- Make.com weakest of the three major platforms
+- New finding: fixed-price share rose 30%→37% over the year (never tracked monthly)
+### Out-of-Sample Check (May 2026, unseen by prior posts)
+- April's volume (3,519), CRM, and AI calls held; April over-corrected pessimistic on rates ($40.63 actual) and n8n (+3.4% bounce)
+
+
 ## [0.12.0] - 2026-05-01
 ### Added
 - upwork-analysis/app-comparison-april-2026.md
